@@ -1,0 +1,229 @@
+/*
+Theme Name:  Motor Child Customization by DarkWinter GRUP
+Theme URI:   https://themeforest.net/item/motor-vehicles-parts-equipments-accessories-wordpress-woocommerce-theme/16829946?ref=stockware
+Description: Motor - Responsive WordPress Child Template
+Author:      Stockware
+Author URI:  http://themeforest.net/user/stockware/?ref=stockware
+Version:     2.0.0
+Tags: translation-ready, editor-style
+Template:    motor
+Text Domain: motor-child
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+.header .header-logo a {
+    margin-left: 3%;
+}
+.header {
+    background: #121925;
+}
+.prod .prod-total-wrap .prod-price, .prod .prod-total-wrap .prod-total {
+    font-weight: 700;
+}
+.prod-tabs li {
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    line-height: 1.42857143;
+}
+.prod-items .prod-i .prod-i-info .button {
+    font-size: 13px;
+	top: 10px;
+}
+.prod-items .prod-i .prod-i-info .button svg {
+	display: none;
+}
+.prod-items .prod-i .prod-i-info {
+    position: relative;
+    min-height: 50px;
+    padding: 10px 29px 0;
+    margin: 0 -29px;
+}
+.prod-items .prod-i .prod-i-categ {
+    margin-top: 2px;
+}
+.section-sb {
+    width: 28%;
+}
+.section-list-withsb {
+    width: 69%;
+}
+body .section-gallery .sectgl {
+    padding: 29px 20px 10px;
+}
+
+.el-header-icons-submenu:hover .widget_shopping_cart, .header-cart:hover .widget_shopping_cart {
+    min-width: 245px;
+    padding: 5px;
+}
+.el-header-icons-submenu .widget_shopping_cart .total, .header-cart .widget_shopping_cart .total {
+    text-align: right;
+}
+
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: left;
+    width: 48%;
+    max-width: 48% !important;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: right;
+    width: 48%;
+    max-width: 48% !important;
+}
+
+.woocommerce-checkout table.shop_table #shipping_method label {
+    padding: 0;
+}
+
+.cart-actions .order-total, .cart-actions .order-total span {
+    font-weight: 700;
+}
+.cart-actions .shipping ul#shipping_method {
+    display: none;
+    position: unset;
+    top: 100%;
+    left: -15px;
+    right: 0;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #e0e4f6;
+    z-index: 3;
+    box-sizing: content-box;
+    padding: 10px 10px 10px;
+    min-width: 100%;
+    margin: 10px 0 10px;
+}
+.cart-actions .shipping ul#shipping_method li {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+
+
+
+/* Checkout Page CSS Edit */
+.woocommerce-checkout .col2-set {
+    margin-bottom: 30px;
+    float: left;
+    max-width: 48%;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: inherit;
+    width: 100%;
+    max-width: 100% !important;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: inherit;
+    width: 100%;
+    max-width: 100% !important;
+    margin-top: 50px;
+}
+.woocommerce-checkout #order_review_heading {
+	margin-left: 4%;
+    float: left;
+}
+.woocommerce-checkout-review-order {
+	float: right;
+    max-width: 48%;
+	background: #f4f5fb;
+    padding: 20px 20px 20px;
+}
+#payment, .woocommerce-checkout #payment {
+	margin-top: 50px;
+}
+
+.woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+    border-top: 1px solid #e0e4f6;
+    text-align: right;
+}
+#ship-to-different-address label input[type=checkbox]:checked+span:before {
+    border-color: #283346;
+    background: #283346;
+}
+
+
+
+
+.prod .prod-cont .woocommerce-message {
+    background: aliceblue;
+}
+
+
+.woocommerce .woocommerce-info {
+    font-size: 14px;
+    text-align: left;
+	padding-left: 50px !important;
+}
+.woocommerce .woocommerce-info::before {
+    font-family: WooCommerce;
+    content: '\e028';
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 1.5em;
+}
+.woocommerce .woocommerce-info::before {
+    color: #848694;
+}
+
+
+
+
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 600px) {
+/* Checkout Page Mobile CSS Edit */
+.woocommerce-checkout .col2-set {
+    margin-bottom: 30px;
+    float: unset;
+    max-width: 100%;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: inherit;
+    width: 100%;
+    max-width: 100% !important;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: inherit;
+    width: 100%;
+    max-width: 100% !important;
+    margin-top: 50px;
+}
+.woocommerce-checkout #order_review_heading {
+    margin-left: 4%;
+    float: none;
+}
+.woocommerce-checkout-review-order {
+    float: none;
+    max-width: 100%;
+    background: #f4f5fb;
+    padding: 20px 20px 20px;
+}
+
+.prod .prod-qnt-wrap input[type=number] {
+    margin: 0 !important;
+}
+
+}
+@media only screen and (max-width: 992px){
+.section-sb {
+    float: none;
+    width: 100% !important;
+    margin: 0 0 30px;
+}
+.section-list-withsb {
+    float: none;
+    width: 100% !important;
+}
+}
+
+
+
+
